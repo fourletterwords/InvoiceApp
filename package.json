@@ -1,0 +1,14 @@
+{
+  "name": "invoice-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "author": "Jeff Ying",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
