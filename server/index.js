@@ -10,5 +10,9 @@ app.get("/", (req, res) => {
   res.send({ hi: "friends" });
 });
 
+app.get("/invoice", (req, res) => {
+  res.redirect("routes/invoice/new");
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
