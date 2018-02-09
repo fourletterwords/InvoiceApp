@@ -5,4 +5,5 @@ app.get('/', (req, res) => {
     res.send({ hi: "everyone" })
 })
 
-app.listen(5000)
+const PORT = process.ENV || 5000
+app.listen(PORT)
