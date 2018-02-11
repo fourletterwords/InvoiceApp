@@ -1,0 +1,22 @@
+{
+  "name": "invoice-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jeff Ying",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
